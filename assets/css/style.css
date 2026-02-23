@@ -121,12 +121,16 @@ email {
   background: var(--bg-subtle);
   border-radius: 10px;
   transition: all 0.25s ease;
+  text-decoration: none !important;
+  border-bottom: none !important;
 }
 
 .social-icons a:hover {
   color: var(--accent) !important;
   background: rgba(37, 99, 235, 0.1);
   transform: translateY(-2px);
+  text-decoration: none !important;
+  border-bottom: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
