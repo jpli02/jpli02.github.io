@@ -4,16 +4,16 @@
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
   /* Morandi palette */
-  --accent: #6f8597;
-  --accent-light: rgba(111, 133, 151, 0.1);
-  --accent-hover: #b08a7e;
-  --award: #b07d62;
-  --text: #3f3b37;
-  --text-muted: #8c857c;
-  --bg: #f5f2ed;
-  --card-bg: #ebe6de;
-  --tile-bg: #fbf9f6;
-  --border: #ddd6cb;
+  --accent: #5a7387;
+  --accent-light: rgba(90, 115, 135, 0.1);
+  --accent-hover: #a07468;
+  --award: #a06a4e;
+  --text: #2b2825;
+  --text-muted: #5a544d;
+  --bg: #fcfbf9;
+  --card-bg: #f2eee8;
+  --tile-bg: #ffffff;
+  --border: #e3ddd4;
   --shadow: 0 2px 8px rgba(80, 66, 52, 0.06);
   --shadow-hover: 0 6px 20px rgba(80, 66, 52, 0.1);
   --radius: 10px;
@@ -26,8 +26,8 @@
     --accent-light: rgba(165, 182, 196, 0.12);
     --accent-hover: #d2ada1;
     --award: #d0a184;
-    --text: #e5dfd7;
-    --text-muted: #a39b91;
+    --text: #eee9e2;
+    --text-muted: #c4bcb2;
     --bg: #2a2724;
     --card-bg: #34302c;
     --tile-bg: #f3efe9;
