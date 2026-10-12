@@ -3,35 +3,35 @@
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
-  /* Morandi palette */
-  --accent: #5a7387;
-  --accent-light: rgba(90, 115, 135, 0.1);
-  --accent-hover: #a07468;
-  --award: #a06a4e;
-  --text: #2b2825;
-  --text-muted: #5a544d;
-  --bg: #fcfbf9;
-  --card-bg: #f2eee8;
-  --tile-bg: #ffffff;
-  --border: #e3ddd4;
-  --shadow: 0 2px 8px rgba(80, 66, 52, 0.06);
-  --shadow-hover: 0 6px 20px rgba(80, 66, 52, 0.1);
+  /* Dunhuang palette: 沙色 · 石青 · 石绿 · 朱砂 · 赭石 · 土黄 */
+  --accent: #2f6380;
+  --accent-light: rgba(47, 99, 128, 0.09);
+  --accent-hover: #b5452f;
+  --award: #a24a2c;
+  --text: #2e2620;
+  --text-muted: #5e5248;
+  --bg: #fbf7ef;
+  --card-bg: #f3eadb;
+  --tile-bg: #fffdf8;
+  --border: #e8dcc6;
+  --shadow: 0 2px 8px rgba(110, 76, 40, 0.07);
+  --shadow-hover: 0 6px 20px rgba(110, 76, 40, 0.12);
   --radius: 10px;
   --max-width: 880px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: #a5b6c4;
-    --accent-light: rgba(165, 182, 196, 0.12);
-    --accent-hover: #d2ada1;
-    --award: #d0a184;
-    --text: #eee9e2;
-    --text-muted: #c4bcb2;
-    --bg: #2a2724;
-    --card-bg: #34302c;
-    --tile-bg: #f3efe9;
-    --border: #45403a;
+    --accent: #8dbbd0;
+    --accent-light: rgba(141, 187, 208, 0.12);
+    --accent-hover: #e3906f;
+    --award: #e0a07a;
+    --text: #f1e8db;
+    --text-muted: #cbbca8;
+    --bg: #241e1a;
+    --card-bg: #2f2822;
+    --tile-bg: #f6efe2;
+    --border: #43392f;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.5);
   }
@@ -245,8 +245,8 @@ section { margin-bottom: 2rem; }
 
 .thumb i { font-size: 1.9rem; }
 
-.thumb.synthid { background: linear-gradient(135deg, #8a9b88, #7c949a); }
-.thumb.gemini { background: linear-gradient(135deg, #8ea2b4, #a99bb5 55%, #c4a29a); }
+.thumb.synthid { background: linear-gradient(135deg, #a24a2c, #c48a4e 60%, #cfa565); }
+.thumb.gemini { background: linear-gradient(135deg, #2f6380, #3f7f86 55%, #5a9a86); }
 
 
 /* ===== Compact rows (experience & education) ===== */
